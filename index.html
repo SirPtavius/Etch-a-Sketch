@@ -7,7 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="container"></div>
-    <script src="script.js"> </script>
+    <div class="box">
+        <div class="instruction">
+            <h1>Etch-a-sketch</h1>
+         <p>Number of squares (16-100):</p>
+         <input type="number" id="squares" name="squares" min="16" max="100" placeholder="16-100">
+         <button id="createSquare">Create Square</button>
+         <button id="drawButton">Draw</button>
+         <button>Erase</button>
+            <button>Clear</button>
+        </div>
+        <div id="container"></div>
+        <script src="script.js"> </script>
+    </div>
 </body>
 </html>
