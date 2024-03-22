@@ -4,20 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    
     <title>Document</title>
 </head>
 <body>
+    
     <div class="box">
-        <div class="instruction">
-            <h1>Etch-a-sketch</h1>
-         <p>Number of squares (16-100):</p>
+
+        <p>Etch-a-sketch</h1>
+
+        <div id="container"></div>
+
+        <div id="instruction">   
+
+             
+             <button id="drawButton">Draw</button>
+             <button id="eraseButton">Erase</button>
+             <button id="clearButton">Clear</button>
+            
+        
+        </div> 
+
+        <h2>Pick a number between 16 and 100:</h2>
+        <div>
          <input type="number" id="squares" name="squares" min="16" max="100" placeholder="16-100">
          <button id="createSquare">Create Square</button>
-         <button id="drawButton">Draw</button>
-         <button>Erase</button>
-            <button>Clear</button>
         </div>
-        <div id="container"></div>
         <script src="script.js"> </script>
     </div>
 </body>
